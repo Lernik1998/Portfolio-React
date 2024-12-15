@@ -1,4 +1,4 @@
-import imagenSM from "../assets/fotoSobremi.png";
+import imagenSM from "../assets/imgSobreMi.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -16,7 +16,9 @@ const AcercaDe = () => {
                 className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex items-center justify-center">
                         {/*Imagen sobre mí */}
-                        <img  className="w-40 h-auto object-cover rounded-2xl" src={imagenSM} alt="imagenSobreMi"/>
+                        <img className="w-96 h-96 object-cover rounded-2xl shadow-lg" 
+                             src={imagenSM} 
+                             alt="imagenSobreMi"/>
                     </div>
                 </motion.div>
                 <motion.div 
@@ -26,7 +28,7 @@ const AcercaDe = () => {
                 
                 className="w-full lg:w-1/2 ">
                         <div className="flex justify-center lg:justify-start">
-                            <p className="my-2 max-w-xl py-6">
+                            <p className="my-2 max-w-xl py-6 whitespace-pre-line">
                                 {ABOUT_TEXT}
                             </p>
                         </div>

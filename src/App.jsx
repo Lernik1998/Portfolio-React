@@ -1,4 +1,4 @@
-// Importamos el archivo barraNavegacion.jsx
+// Importamos los componentes
 
 import AcercaDe from "./componentes/AcercaDe";
 import BarraNavegacion from "./componentes/BarraNavegacion";

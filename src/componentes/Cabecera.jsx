@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"; // Importamos el contenido de la cabecera
-import fotoCV from "../assets/fotoCV.png";// Importamos la imagen
+import fotoCV from "../assets/fotoCV.jpeg";// Importamos la imagen
 import { motion } from "framer-motion"; // Para aplicar ANIMACIONES npm install framer-motion ->  https://www.framer.com/motion/introduction/
 
 

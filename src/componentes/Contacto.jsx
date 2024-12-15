@@ -24,16 +24,28 @@ const Contacto = () => {
             {CONTACT.address}
         </motion.p>
 
-        <motion.a 
+        <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
-        href={`https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACT.email}`}
-      >
-        {CONTACT.email}
-      </motion.a>
+        className="flex flex-col items-center gap-4"
+        >
+          <a 
+            href={`tel:${CONTACT.phoneNo}`}
+            className="hover:text-cyan-400 transition-colors duration-300"
+          >
+            {CONTACT.phoneNo}
+          </a>
 
-
+          <a 
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACT.email}`}
+            className="hover:text-cyan-400 transition-colors duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {CONTACT.email}
+          </a>
+        </motion.div>
       </div>
     </div>
   )

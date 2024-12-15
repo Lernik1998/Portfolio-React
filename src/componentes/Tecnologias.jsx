@@ -7,6 +7,15 @@ import { DiJavascript1 } from "react-icons/di";
 import { DiHtml5 } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
 import { DiReact } from "react-icons/di";
+import { DiLaravel } from "react-icons/di";
+import { DiBootstrap } from "react-icons/di";
+import { DiSymfony } from "react-icons/di";
+import { DiPhp } from "react-icons/di";
+import { DiJqueryLogo } from "react-icons/di";
+import { SiPhpmyadmin } from "react-icons/si";
+import { SiJunit5 } from "react-icons/si";
+import { SiUml } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 // Importamos animación 
 import { motion } from "framer-motion";
@@ -100,6 +109,70 @@ const Tecnologias = () => {
                     
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <BsGithub className="text-7xl text-white-400" />
+                </motion.div>
+
+                {/* Nuevas tecnologías */}
+                <motion.div variants={controlIconos(2.9)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiSymfony className="text-7xl text-pink-400" />
+                </motion.div>
+
+                <motion.div variants={controlIconos(3.2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiPhp className="text-7xl text-purple-600" />
+                </motion.div>
+
+                <motion.div variants={controlIconos(2.6)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiLaravel className="text-7xl text-red-500" />
+                </motion.div>
+
+                <motion.div variants={controlIconos(3.4)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiBootstrap className="text-7xl text-purple-500" />
+                </motion.div>
+
+                <motion.div variants={controlIconos(3.6)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiJqueryLogo className="text-7xl text-blue-400" />
+                </motion.div>
+
+                <motion.div variants={controlIconos(3.8)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiPhpmyadmin className="text-7xl text-orange-500" />
+                </motion.div>
+
+                <motion.div variants={controlIconos(3.9)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiJunit5 className="text-7xl text-green-600" />
+                </motion.div>
+
+                <motion.div variants={controlIconos(4.0)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiUml className="text-7xl text-blue-300" />
+                </motion.div>
+
+                <motion.div variants={controlIconos(4.1)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <RiTailwindCssFill className="text-7xl text-cyan-400" />
                 </motion.div>
 
                 </motion.div>
