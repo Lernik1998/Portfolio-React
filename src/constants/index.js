@@ -10,7 +10,7 @@ export const ABOUT_TEXT =
   "\n" +
   "Me esfuerzo por ser eficaz en mis tareas, comunico con claridad y disfruto trabajando en equipo. Siempre busco aportar ideas útiles, mantener un ambiente respetuoso y crecer junto con quienes me rodean.\n" +
   "\n" +
-  "Apasionado por la tecnología y el desarrollo web, actualmente busco incorporarme a una empresa dedicada al desarrollo y mantenimiento web, desarrollo de aplicaciones o auditoría de ciberseguridad. Me encuentro en constante formación, ampliando mis conocimientos en ciberseguridad para complementar mi perfil técnico y profesional.";
+  "Apasionado por la tecnología y el desarrollo web.";
 
 export const HERO_CONTENT =
   "Desarrollador FullStack con un año de experiencia.\n" +
@@ -20,6 +20,16 @@ export const HERO_CONTENT =
   "Actualmente ampliando conocimientos en ciberseguridad a través de un programa especializado en UNIR - Universidad Internacional de La Rioja.";
 
 export const EXPERIENCES = [
+  {
+    year: "2025 - Actualidad",
+    role: "Desarrollador FullStack",
+    company: "NTT Data",
+    description:
+      "Principios SOLID y buenas prácticas de desarrollo.\n" +
+      "Diseño de interfaces modernas y responsivas.\n" +
+      "",
+    // technologies: ["Javascript", "React.js"],
+  },
   {
     year: "2024 - 2025",
     role: "Desarrollador FullStack",
@@ -151,6 +161,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Alicante, España",
-  phoneNo: "+ 34 615 834 420",
+  // phoneNo: "",
   email: "lernik10@gmail.com",
 };

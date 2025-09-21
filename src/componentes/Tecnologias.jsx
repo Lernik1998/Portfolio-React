@@ -4,15 +4,14 @@ import { DiMysql } from "react-icons/di";
 import { BsGithub } from "react-icons/bs";
 import { DiJava } from "react-icons/di";
 import { DiJavascript1 } from "react-icons/di";
+import { DiPython } from "react-icons/di";
 import { DiHtml5 } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
-import { DiReact } from "react-icons/di";
 import { DiLaravel } from "react-icons/di";
 import { DiBootstrap } from "react-icons/di";
 import { DiSymfony } from "react-icons/di";
 import { DiPhp } from "react-icons/di";
 import { DiJqueryLogo } from "react-icons/di";
-import { SiPhpmyadmin } from "react-icons/si";
 import { SiJunit5 } from "react-icons/si";
 import { SiUml } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -139,7 +138,7 @@ const Tecnologias = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <DiReact className="text-7xl text-cyan-400" />
+          <DiPython className="text-7xl text-cyan-400" />
         </motion.div>
 
         <motion.div
@@ -178,16 +177,6 @@ const Tecnologias = () => {
         >
           <DiJqueryLogo className="text-7xl text-blue-400" />
         </motion.div>
-
-        <motion.div
-          variants={controlIconos(3.8)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiPhpmyadmin className="text-7xl text-orange-500" />
-        </motion.div>
-
      
         <motion.div
           variants={controlIconos(4.0)}
